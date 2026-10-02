@@ -1684,6 +1684,28 @@ export default function JumpGame() {
           <li>M — toggle mute during gameplay</li>
         </ul>
       </section>
+      <a
+        href="https://feedback-feed-gaming.lovable.app/invite/fe4d1e42d94e"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Open the feedback and bug report form"
+        style={{
+          position: "fixed",
+          right: 14,
+          bottom: 14,
+          zIndex: 50,
+          padding: "8px 14px",
+          background: "#f97316",
+          color: "#1c1917",
+          fontWeight: 700,
+          borderRadius: 8,
+          border: "2px solid #7c2d12",
+          boxShadow: "0 4px 10px rgba(0,0,0,0.4)",
+          textDecoration: "none",
+        }}
+      >
+        feedback/bug report
+      </a>
     </main>
   );
 }
